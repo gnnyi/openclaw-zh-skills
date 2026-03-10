@@ -13,7 +13,7 @@
 1. 作为 skills 的源码仓库
 2. 作为 GitHub Pages 项目展示页的内容来源
 
-## 当前收录的 skills
+## 当前收录的 Skills
 
 - `research-digest-zh`
 - `idea-to-draft-zh`
@@ -39,39 +39,18 @@ docs/
   styles.css
 ```
 
-## 发布到 GitHub
+## 适用场景
 
-1. 创建远端仓库
-2. 添加 remote：
+- 政策解读与研究资料整理
+- 主题选题到初稿生成
+- 周期性信息跟踪与周报输出
 
-```bash
-git remote add origin <你的 GitHub 仓库地址>
-```
+## 项目原则
 
-3. 提交并推送：
+- 先做窄 skill，先交付可验证结果
+- 每个 skill 必须有模板、示例和样例输出
+- 优先中文场景，可逐步扩展到双语
 
-```bash
-git add .
-git commit -m "Initial OpenClaw zh skills starter kit"
-git branch -M main
-git push -u origin main
-```
+## 展示入口
 
-## 启用 GitHub Pages
-
-在 GitHub 仓库设置中：
-
-1. 打开 `Settings -> Pages`
-2. Source 选择 `Deploy from a branch`
-3. Branch 选择 `main`
-4. Folder 选择 `/docs`
-
-之后 GitHub Pages 会直接发布 `docs/` 里的项目展示页。
-
-## 当前状态
-
-这个仓库已经适合继续做三类事情：
-
-- 持续沉淀 OpenClaw 中文 skills
-- 通过 GitHub Pages 展示项目
-- 后续选择部分 skill 发布到 ClawHub
+- GitHub Pages 项目页：`docs/index.html`
