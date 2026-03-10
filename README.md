@@ -1,24 +1,25 @@
-# OpenClaw Chinese Skill Starter Kit
+# OpenClaw 中文 Skills 仓库
 
-An opinionated starter kit for building Chinese-first OpenClaw skills around a
-simple chain:
+这是一个持续更新的 OpenClaw 中文 Skills、模板与演示仓库。
 
-- research digest
-- idea to draft
-- weekly brief
+当前先围绕一条最小闭环来构建：
 
-This repository is designed to serve two jobs:
+- 研究资料整理
+- 选题到初稿
+- 信息到周报
 
-1. the source repo for the skills themselves
-2. a GitHub Pages project page under `docs/`
+这个仓库同时承担两件事：
 
-## Included skills
+1. 作为 skills 的源码仓库
+2. 作为 GitHub Pages 项目展示页的内容来源
+
+## 当前收录的 skills
 
 - `research-digest-zh`
 - `idea-to-draft-zh`
 - `source-to-weekly-brief-zh`
 
-Each skill includes:
+每个 skill 当前都包含：
 
 - `SKILL.md`
 - `agents/openai.yaml`
@@ -26,7 +27,7 @@ Each skill includes:
 - `templates/`
 - `assets/sample-output-*.md`
 
-## Repository layout
+## 仓库结构
 
 ```text
 skills/
@@ -38,40 +39,39 @@ docs/
   styles.css
 ```
 
-## Publish to GitHub
+## 发布到 GitHub
 
-1. Create a new GitHub repository.
-2. Add the remote:
+1. 创建远端仓库
+2. 添加 remote：
 
 ```bash
-git remote add origin <your-github-repo-url>
+git remote add origin <你的 GitHub 仓库地址>
 ```
 
-3. Commit and push:
+3. 提交并推送：
 
 ```bash
 git add .
-git commit -m "Initial OpenClaw starter kit"
+git commit -m "Initial OpenClaw zh skills starter kit"
 git branch -M main
 git push -u origin main
 ```
 
-## Enable GitHub Pages
+## 启用 GitHub Pages
 
-In the GitHub repository settings:
+在 GitHub 仓库设置中：
 
-1. Open `Settings -> Pages`
-2. Set `Source` to `Deploy from a branch`
-3. Choose branch `main`
-4. Choose folder `/docs`
+1. 打开 `Settings -> Pages`
+2. Source 选择 `Deploy from a branch`
+3. Branch 选择 `main`
+4. Folder 选择 `/docs`
 
-GitHub Pages will then publish the project page from `docs/`.
+之后 GitHub Pages 会直接发布 `docs/` 里的项目展示页。
 
-## Current status
+## 当前状态
 
-The repo is ready for:
+这个仓库已经适合继续做三类事情：
 
-- GitHub versioning
-- GitHub Pages project showcase
-- later publishing of selected skills to ClawHub
-
+- 持续沉淀 OpenClaw 中文 skills
+- 通过 GitHub Pages 展示项目
+- 后续选择部分 skill 发布到 ClawHub
