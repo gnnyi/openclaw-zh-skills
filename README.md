@@ -1,6 +1,6 @@
-# OpenClaw 中文 Skills 仓库
+# OpenClaw 中文技能仓库
 
-这是一个持续更新的 OpenClaw 中文 Skills、模板与演示仓库。
+这是一个持续更新的 OpenClaw 中文技能、模板与演示仓库。
 
 当前先围绕一条最小闭环来构建：
 
@@ -10,16 +10,16 @@
 
 这个仓库同时承担两件事：
 
-1. 作为 skills 的源码仓库
+1. 作为技能源码仓库
 2. 作为 GitHub Pages 项目展示页的内容来源
 
-## 当前收录的 Skills
+## 当前收录的技能
 
 - `research-digest-zh`
 - `idea-to-draft-zh`
 - `source-to-weekly-brief-zh`
 
-每个 skill 当前都包含：
+每个技能当前都包含：
 
 - `SKILL.md`
 - `agents/openai.yaml`
@@ -47,8 +47,8 @@ docs/
 
 ## 项目原则
 
-- 先做窄 skill，先交付可验证结果
-- 每个 skill 必须有模板、示例和样例输出
+- 先做窄技能，先交付可验证结果
+- 每个技能必须有模板、示例和样例输出
 - 优先中文场景，可逐步扩展到双语
 
 ## 展示入口

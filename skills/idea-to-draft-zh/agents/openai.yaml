@@ -1,7 +1,7 @@
 interface:
-  display_name: "Idea To Draft ZH"
+  display_name: "想法到初稿 ZH"
   short_description: "把主题或笔记转成中文初稿"
-  default_prompt: "Use $idea-to-draft-zh to turn this topic or notes into a focused Chinese first draft."
+  default_prompt: "使用 $idea-to-draft-zh 把这个主题或笔记整理成聚焦的中文初稿。"
 
 policy:
   allow_implicit_invocation: false
