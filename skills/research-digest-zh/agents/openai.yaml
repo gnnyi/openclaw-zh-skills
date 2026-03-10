@@ -4,4 +4,4 @@ interface:
   default_prompt: "Use $research-digest-zh to turn these sources into a concise Chinese research digest."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

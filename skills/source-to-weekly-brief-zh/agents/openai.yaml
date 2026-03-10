@@ -4,4 +4,4 @@ interface:
   default_prompt: "Use $source-to-weekly-brief-zh to turn this week's sources into a decision-oriented Chinese brief."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

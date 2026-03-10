@@ -37,9 +37,9 @@ already in the right place for this repository.
 
 Suggested test prompts:
 
-- "Use `research_digest_zh` to turn these links into a research brief."
-- "Use `idea_to_draft_zh` to turn this topic into a Chinese draft."
-- "Use `source_to_weekly_brief_zh` to summarize this week's source updates."
+- "Use `research-digest-zh` to turn these links into a research brief."
+- "Use `idea-to-draft-zh` to turn this topic into a Chinese draft."
+- "Use `source-to-weekly-brief-zh` to summarize this week's source updates."
 
 ## First upgrade path
 

@@ -4,4 +4,4 @@ interface:
   default_prompt: "Use $idea-to-draft-zh to turn this topic or notes into a focused Chinese first draft."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false
