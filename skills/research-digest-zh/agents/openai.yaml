@@ -1,0 +1,7 @@
+interface:
+  display_name: "Research Digest ZH"
+  short_description: "将多份资料整理成中文研究摘要"
+  default_prompt: "Use $research-digest-zh to turn these sources into a concise Chinese research digest."
+
+policy:
+  allow_implicit_invocation: true

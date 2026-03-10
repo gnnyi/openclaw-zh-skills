@@ -1,0 +1,7 @@
+interface:
+  display_name: "Idea To Draft ZH"
+  short_description: "把主题或笔记转成中文初稿"
+  default_prompt: "Use $idea-to-draft-zh to turn this topic or notes into a focused Chinese first draft."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenClaw Chinese Skill Starter Kit</title>
+    <meta
+      name="description"
+      content="A Chinese-first OpenClaw starter kit with three focused skills for research, drafting, and weekly briefs."
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">OpenClaw / Chinese-first / Starter Kit</p>
+          <h1>Build narrow skills first. Ship proof before platform.</h1>
+          <p class="lede">
+            This repository packages three focused OpenClaw skills into a single
+            starter kit for research digestion, content drafting, and weekly
+            brief generation.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="../README.md">Read Repo Guide</a>
+            <a class="button button-secondary" href="#skills">View Skills</a>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <p class="panel-label">Current shape</p>
+          <ul class="signal-list">
+            <li>3 publishable starter skills</li>
+            <li>Chinese-first prompts and templates</li>
+            <li>Sample outputs for demo and review</li>
+            <li>Ready for GitHub Pages and later ClawHub publishing</li>
+          </ul>
+        </aside>
+      </header>
+
+      <main>
+        <section class="section intro-grid">
+          <article class="info-card accent-sand">
+            <p class="card-kicker">Positioning</p>
+            <h2>What this project is</h2>
+            <p>
+              A practical OpenClaw starter kit for people who want a tighter
+              entry point than “build a full agent platform”. Each skill solves
+              one job clearly enough to demo, test, and iterate.
+            </p>
+          </article>
+          <article class="info-card accent-ink">
+            <p class="card-kicker">Why it exists</p>
+            <h2>Why this route makes sense</h2>
+            <p>
+              Early ecosystems reward useful components. Narrow skills are
+              faster to build, easier to explain, and more credible than vague
+              platform promises.
+            </p>
+          </article>
+        </section>
+
+        <section class="section" id="skills">
+          <div class="section-head">
+            <p class="eyebrow">Starter skills</p>
+            <h2>The three-skill chain</h2>
+            <p>
+              Together they form a simple pipeline: research, structure, and
+              recurring output.
+            </p>
+          </div>
+
+          <div class="skill-grid">
+            <article class="skill-card">
+              <p class="skill-tag">01 / research-digest-zh</p>
+              <h3>Research Digest</h3>
+              <p>
+                Turns scattered materials into a source-aware Chinese research
+                brief with findings, implications, and open questions.
+              </p>
+              <ul class="mini-list">
+                <li>Best for policy scans and topic research</li>
+                <li>Separates evidence from inference</li>
+                <li>Outputs a decision-oriented digest</li>
+              </ul>
+              <pre><code>sources -> findings -> implications</code></pre>
+            </article>
+
+            <article class="skill-card">
+              <p class="skill-tag">02 / idea-to-draft-zh</p>
+              <h3>Idea To Draft</h3>
+              <p>
+                Converts a topic or notes into a sharper Chinese first draft by
+                forcing audience, angle, outline, and revision notes.
+              </p>
+              <ul class="mini-list">
+                <li>Best for article or note drafting</li>
+                <li>Generates multiple angles before writing</li>
+                <li>Produces a usable first draft, not just brainstorm</li>
+              </ul>
+              <pre><code>topic -> angle -> outline -> draft</code></pre>
+            </article>
+
+            <article class="skill-card">
+              <p class="skill-tag">03 / source-to-weekly-brief-zh</p>
+              <h3>Weekly Brief</h3>
+              <p>
+                Converts a week's source updates into a compact Chinese brief
+                focused on what changed, why it matters, and what to do next.
+              </p>
+              <ul class="mini-list">
+                <li>Best for recurring ecosystem tracking</li>
+                <li>Prioritizes deltas over repetition</li>
+                <li>Ends with concrete action items</li>
+              </ul>
+              <pre><code>weekly inputs -> delta summary -> next actions</code></pre>
+            </article>
+          </div>
+        </section>
+
+        <section class="section showcase">
+          <div class="section-head">
+            <p class="eyebrow">Why this is credible</p>
+            <h2>Each skill already has the minimum publishable shape</h2>
+          </div>
+
+          <div class="stack-grid">
+            <div class="stack-card">
+              <h3>Skill spec</h3>
+              <p>`SKILL.md` defines triggers, workflow, rules, and output contract.</p>
+            </div>
+            <div class="stack-card">
+              <h3>Examples</h3>
+              <p>`references/examples.md` provides realistic test cases and expected shapes.</p>
+            </div>
+            <div class="stack-card">
+              <h3>Templates</h3>
+              <p>`templates/` keeps output structure stable enough to evaluate and improve.</p>
+            </div>
+            <div class="stack-card">
+              <h3>Demo assets</h3>
+              <p>`assets/sample-output-*.md` makes the repo immediately demoable.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section roadmap">
+          <div class="section-head">
+            <p class="eyebrow">Next moves</p>
+            <h2>What happens after the starter kit</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="timeline-index">1</span>
+              <div>
+                <h3>Run real tests</h3>
+                <p>
+                  Use explicit invocation first, then test whether OpenClaw
+                  chooses the right skill implicitly.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-index">2</span>
+              <div>
+                <h3>Tighten outputs</h3>
+                <p>
+                  Refine weak sections, reduce generic phrasing, and add one
+                  stronger example per skill.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-index">3</span>
+              <div>
+                <h3>Publish selectively</h3>
+                <p>
+                  Push the repo to GitHub, enable Pages, then choose which
+                  skills deserve ClawHub publication.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
